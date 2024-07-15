@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Políticas RAYV</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #000;
+        }
+        header img {
+            max-width: 200px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #111;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 0;
+            position: relative;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #fff;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        nav a:hover {
+            color: #052552;
+        }
+        nav a:hover:before {
+            transform: scaleX(1);
+        }
+        .content {
+            padding: 80px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .sectionTitle {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .body {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+        .listItem {
+            display: block;
+            margin-left: 20px;
+            list-style: disc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo da Empresa">
+    </header>
+    <nav>
+        <h1>Como deletar a sua conta</h1>
+    </nav>
+    <div class="content">
+        <p>Para deletar a sua cinta é muito simples, quando estiver logado no aplicativo, você deve ir na tela de configurações do aplicativo e a última opção é Apagar a Conta, após clicar você deve enviar o motivo da sua solicitação para deletar a sua conta, após isso sua conta será deletada nas próximas 24 horas</p>
+    </div>
+</body>
+</html>
